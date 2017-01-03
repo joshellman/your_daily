@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-
-# hide environement variables
+ruby "2.3.1"
+# hide environment variables
 gem 'dotenv-rails', group: :development, require: 'dotenv/rails-now'
 
 # photo uploads
@@ -54,3 +54,5 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem 'rails_12factor', group: :production
