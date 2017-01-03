@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
 
+# hide environement variables
+gem 'dotenv-rails', group: :development, require: 'dotenv/rails-now'
+
+# photo uploads
+gem 'paperclip'
+gem 'aws-sdk'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
