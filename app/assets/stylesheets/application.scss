@@ -16,3 +16,13 @@
  @import "bootswatch/cerulean/variables";
  @import "bootstrap";
  @import "bootswatch/cerulean/bootswatch";
+
+.background{
+  background-image: url("Open_field_1.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 700px;
+  width:950px;
+  background-size: cover;
+
+}
